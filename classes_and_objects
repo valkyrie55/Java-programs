@@ -1,0 +1,29 @@
+//java program to implement classes and objects
+class Student{
+/*   Instance variables */
+    int roll_no;
+    String name;
+    static string college ="UPES";
+    static void change(){
+    college ="DU";
+}
+//constructor
+    Student(int r, String n){
+        roll_no = r;
+        name =n;
+    }
+ void display(){
+     System.out.println(name + " " + roll_no + " " +college);
+ }
+}
+class example{
+    public static void main(String[] args){
+        Student.change();
+        Student s1 = new Student(106, "Shweta");
+		    Student s2 = new Student(107, "Aryan");
+		    Student s3 = new Student(109, "Luv");
+		    s1.display();
+		    s2.display();
+		    s3.display();
+    }
+}
