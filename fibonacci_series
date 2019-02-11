@@ -1,0 +1,13 @@
+//java program to implement fibonacci series till n(entered by user via cmd line argument)
+public class Fibonacci{
+    public static void main(String[] args){
+        int n = Integer.parseInt(args[0]);
+        int n1=0,n2 =1,i,res;
+        System.out.println(n1);
+        for(i=0;i<=n;i++){
+            res = n1+n2;
+            n1 =n2;
+            n2 =res;
+        }
+    }
+}
