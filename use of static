@@ -1,0 +1,7 @@
+Static can be used for :
+   1.Class variables
+   2.Class Methods
+   3.Define constant along final keyword
+   4.static initialization block -> Objects are initialized via constructors and static fields are 
+                                    initialized via static initializaton block.
+                                    
