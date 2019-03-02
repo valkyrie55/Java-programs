@@ -1,0 +1,7 @@
+An exception is thrown when an unexpected error is encountered. Exceptions are objects. 
+All exception types-- that is, any class designed for throwable objects -- must extend the 
+class Throwable or one of its subclasses. The Throwable class contains a string that can be used to describe the exception .
+By convention, new exception types extend Exception, a subclass of Throwable.
+
+Checked and Unchecked exception:
+CHECKED: are the exceptions that are checked at compile time
